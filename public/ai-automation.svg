@@ -1,0 +1,83 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F1F5F9"/>
+  
+  <!-- Central AI Brain -->
+  <circle cx="200" cy="150" r="50" fill="#8B5CF6" stroke="#6D28D9" stroke-width="3"/>
+  <circle cx="200" cy="150" r="35" fill="#A78BFA" opacity="0.7"/>
+  <circle cx="200" cy="150" r="20" fill="#C4B5FD" opacity="0.5"/>
+  
+  <!-- AI Circuit patterns -->
+  <path d="M180 130 Q200 120 220 130 Q220 140 200 150 Q180 140 180 130" fill="#4C1D95"/>
+  <circle cx="190" cy="140" r="2" fill="#1F2937"/>
+  <circle cx="210" cy="140" r="2" fill="#1F2937"/>
+  
+  <!-- Neural network connections -->
+  <!-- Left connections -->
+  <line x1="150" y1="150" x2="200" y2="150" stroke="#8B5CF6" stroke-width="3"/>
+  <line x1="120" y1="120" x2="180" y2="130" stroke="#8B5CF6" stroke-width="2"/>
+  <line x1="120" y1="180" x2="180" y2="170" stroke="#8B5CF6" stroke-width="2"/>
+  
+  <!-- Right connections -->
+  <line x1="250" y1="150" x2="300" y2="150" stroke="#8B5CF6" stroke-width="3"/>
+  <line x1="280" y1="120" x2="220" y2="130" stroke="#8B5CF6" stroke-width="2"/>
+  <line x1="280" y1="180" x2="220" y2="170" stroke="#8B5CF6" stroke-width="2"/>
+  
+  <!-- Top connections -->
+  <line x1="200" y1="100" x2="200" y2="150" stroke="#8B5CF6" stroke-width="3"/>
+  <line x1="180" y1="80" x2="190" y2="130" stroke="#8B5CF6" stroke-width="2"/>
+  <line x1="220" y1="80" x2="210" y2="130" stroke="#8B5CF6" stroke-width="2"/>
+  
+  <!-- Bottom connections -->
+  <line x1="200" y1="150" x2="200" y2="200" stroke="#8B5CF6" stroke-width="3"/>
+  <line x1="180" y1="220" x2="190" y2="170" stroke="#8B5CF6" stroke-width="2"/>
+  <line x1="220" y1="220" x2="210" y2="170" stroke="#8B5CF6" stroke-width="2"/>
+  
+  <!-- Input nodes -->
+  <circle cx="100" y="100" r="15" fill="#3B82F6" stroke="#1E40AF" stroke-width="2"/>
+  <text x="100" y="105" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Data</text>
+  
+  <circle cx="100" y="150" r="15" fill="#3B82F6" stroke="#1E40AF" stroke-width="2"/>
+  <text x="100" y="155" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Rules</text>
+  
+  <circle cx="100" y="200" r="15" fill="#3B82F6" stroke="#1E40AF" stroke-width="2"/>
+  <text x="100" y="205" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Patterns</text>
+  
+  <!-- Output nodes -->
+  <circle cx="300" y="100" r="15" fill="#10B981" stroke="#059669" stroke-width="2"/>
+  <text x="300" y="105" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Reports</text>
+  
+  <circle cx="300" y="150" r="15" fill="#10B981" stroke="#059669" stroke-width="2"/>
+  <text x="300" y="155" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Insights</text>
+  
+  <circle cx="300" y="200" r="15" fill="#10B981" stroke="#059669" stroke-width="2"/>
+  <text x="300" y="205" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Actions</text>
+  
+  <!-- Processing indicators -->
+  <circle cx="200" cy="50" r="8" fill="#F59E0B" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="250" r="8" fill="#F59E0B" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="150" r="8" fill="#F59E0B" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="150" r="8" fill="#F59E0B" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Floating data particles -->
+  <circle cx="80" cy="80" r="3" fill="#8B5CF6" opacity="0.6">
+    <animate attributeName="cy" values="80;70;80" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="80" r="3" fill="#10B981" opacity="0.6">
+    <animate attributeName="cy" values="80;70;80" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="80" cy="220" r="3" fill="#8B5CF6" opacity="0.6">
+    <animate attributeName="cy" values="220;230;220" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="220" r="3" fill="#10B981" opacity="0.6">
+    <animate attributeName="cy" values="220;230;220" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,6 +1,5 @@
 /* Archivo principal de Tailwind CSS */
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/preflight";
 @tailwind utilities;
 
 /* Custom base styles */
